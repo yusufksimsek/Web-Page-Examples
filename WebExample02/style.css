@@ -1,0 +1,132 @@
+*{
+    font-family: calibri;
+   
+}
+
+.container{
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    height: 180px;
+    background-color: black;
+    position: relative;
+}
+
+.title{
+    color: white;
+    position: absolute;
+    top:30px;
+    left: 30px;
+}
+#five{
+    color: orange;
+    font-size: 65px;
+    position: absolute;
+    top:-35px;
+    left:111px;
+}
+
+.navbar{
+    position: relative;
+    height: 40px;
+    background-color: gray;
+    width: 100%;
+    bottom: -140px;
+}
+
+.menu{
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.menu li{
+    float: left;
+    position: relative;
+
+}
+
+.menu li a{
+    text-decoration: none;
+    display: block;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color:white;
+    background-color: gray;
+}
+
+.menu li:hover > a{
+    background-color: gainsboro;
+    color: black;
+}
+
+.submenu{
+    list-style-type: none;
+    position: absolute;
+    display: none;
+    left: -40px;
+}
+.submenu li a{
+    border-top: 1px solid white;
+}
+
+
+.menu li:hover .submenu{
+    display: block;
+}
+
+.content{
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    margin-top: 0px;
+    
+    
+}
+
+.left{
+    float: left;
+    width: 500px;
+    height: 100%;
+    background-color:white;
+}
+.right{
+    float: left;
+    width: 200px;
+    height: 100%;
+    background-color: gainsboro;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.imgs{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right:10px ;
+}
+.leftcontent{
+    margin: 20px;
+    margin-top: 40px;; 
+}
+
+hr{
+    width: 80%;
+    margin-left: 10px;
+}
+
+.footer{
+    background-color: black;
+    height: 50px;
+    padding: 20px;
+}
+
+#footertext{
+    color:white;
+    text-align: center;
+}
